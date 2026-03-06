@@ -1,0 +1,37 @@
+{
+  "name": "weather-client",
+  "version": "1.0.0",
+  "description": "Reusable Weather API client for Visual Crossing",
+  "main": "src/js/WeatherClient.js",
+  "scripts": {
+    "build": "webpack",
+    "dev": "webpack serve --open",
+    "watch": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kosko-mj/weather-client.git"
+  },
+  "keywords": [
+    "weather",
+    "api",
+    "visual-crossing",
+    "client"
+  ],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/kosko-mj/weather-client/issues"
+  },
+  "homepage": "https://github.com/kosko-mj/weather-client#readme",
+  "devDependencies": {
+    "@babel/core": "^7.29.0",
+    "@babel/preset-env": "^7.29.0",
+    "babel-loader": "^10.1.0",
+    "html-webpack-plugin": "^5.6.6",
+    "webpack": "^5.105.4",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.3"
+  }
+}
